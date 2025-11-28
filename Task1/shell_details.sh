@@ -1,0 +1,10 @@
+#!/bin/bash
+echo -e "\nScript to print details of Shell\n"
+echo -e "Shell:     ${SHELL}"
+echo -e "Version:   $(bash --version)"
+echo -e "User:      $USER"
+#echo -e "User:     $(whoami)"
+echo -e "PID:       $$"
+echo -e "Hostname:  $(hostname)"
+echo -e "PATH:      $PATH"
+echo -e "Terminal:  $TERM"

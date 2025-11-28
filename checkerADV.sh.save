@@ -1,0 +1,12 @@
+#1/bin/bash
+echo -e "Script to checker the greater of two numbers \n"
+echo -e "Enter first number: \c"
+read num1
+echo -e "Enter second number: \c"
+read num2
+if [ $num1 -ge $num2 ]
+then
+echo -e " is greater"
+else
+echo -e " is greater"
+fi
